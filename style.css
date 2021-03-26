@@ -1,47 +1,36 @@
 body{
+    font-family: 'Montserrat';font-size: 13px;
     margin-top:20px;
-    background: #fafafa
+    background:#ECF0F5;
+    border: none;
 }
+
+/* Typography*/
+
+h1 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900 !important;
+font-size: 30px;
+color: #222D32;
+}
+
+h5 {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 700 !important;
+font-size: 15px;
+color: #222D32;
+}
+
+/* Cards */
 
 .card {
     margin-bottom: 1.5rem;
-    box-shadow: 0 .25rem .5rem rgba(0, 0, 0, .025)
 }
 
 .card-border-primary {
-    border-top: 4px solid #2979ff
-}
-
-.card-border-secondary {
-    border-top: 4px solid #efefef
-}
-
-.card-border-success {
-    border-top: 4px solid #00c853
-}
-
-.card-border-info {
-    border-top: 4px solid #3d5afe
-}
-
-.card-border-warning {
-    border-top: 4px solid #ff9100
-}
-
-.card-border-danger {
-    border-top: 4px solid #ff1744
-}
-
-.card-border-light {
-    border-top: 4px solid #f8f9fa
-}
-
-.card-border-dark {
-    border-top: 4px solid #6c757d
-}
-
-.card-header {
-    border-bottom-width: 1px
+    background: transparent;
 }
 
 .card-actions a {
@@ -86,7 +75,6 @@ body{
 }
 .card {
     margin-bottom: 1.5rem;
-    box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.025);
 }
 
 .card {
@@ -97,23 +85,43 @@ body{
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: transparent;
     background-clip: border-box;
-    border: 1px solid #e5e9f2;
-    border-radius: .2rem;
+    border: none;
+    border-radius: .3rem;
+    margin-top: 10px !important;
 }
 
 .card-header:first-child {
-    border-radius: calc(.2rem - 1px) calc(.2rem - 1px) 0 0;
+    border-radius: .3rem;
 }
 
-.card-header {
-    border-bottom-width: 1px;
-}
 .card-header {
     padding: .75rem 1.25rem;
     margin-bottom: 0;
     color: inherit;
     background-color: #fff;
-    border-bottom: 1px solid #e5e9f2;
+    border: none;
+}
+
+.card-header.green {
+    background-color: #00a65b15;
+}
+
+.card-header.yellow {
+    background-color: #DADD3915;
+}
+
+.card-header.blue {
+    background-color: #00C0EF15;
+}
+
+.card-header.red {
+    background-color: #DD4B3915;
+}
+
+.card-body {
+    margin-top: 10px !important;
+    background-color: #E5E9F2;
+    border-radius: .3rem;
 }
