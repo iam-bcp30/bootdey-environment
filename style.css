@@ -125,3 +125,15 @@ color: #222D32;
     background-color: #E5E9F2;
     border-radius: .3rem;
 }
+
+.bg-light {
+    background: none !important;
+}
+
+.card-body.p-3.column {
+    padding: 0 !important;
+}
+
+.card-body.column {
+    padding: 0 !important;
+}
